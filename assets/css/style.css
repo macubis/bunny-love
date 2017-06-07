@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: "Lucida Sans", sans-serif;
+}
+body{
+	background-color: #B3E5FC;
+}
+header {
+    background-color:#0288D1;
+    color: #BDBDBD;
+    display: flex;
+    flex-direction: row;
+}
+.cabecera{
+	width: 100%;
+	background-color:#0288D1;
+    color: #BDBDBD;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	
+}
+.lista{
+	width: 80%;
+	flex-direction: row;
+	justify-content:flex-end;
+	align-items:center;
+	align-self:center;
+	color:red;
+}
+.lista h2{
+	padding-left: 30px;
+	color:white;
+}
+
+ul{
+	flex-direction: row;
+	justify-content: flex-end;
+}
+ul a{
+	align-self: center;
+	align-items: center;
+	font-size: 12px;
+	padding: 9px;
+	color:#BDBDBD;
+	text-decoration: none;
+	margin-top: 10px;
+
+}
+.menu li a:hover {
+    background-color: #0099cc;
+}
+.fondo{
+	width: 75%;
+	height: 100px;
+	background-image: cover;
+	margin: 0 auto;
+}
+.conejo{
+	background-image: url(../img/img-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.transparente{
+	background-color: #0288D1;
+	opacity: 0.6;
+	width: 50%;
+	height: 200px;
+	float: center;
+	position: relative;
+	top: 60px;
+	left: 300px;
+}
+.cajon{
+	width:50%;
+}
+h1 h6{
+	float: center;
+}
